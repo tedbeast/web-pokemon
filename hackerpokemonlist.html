@@ -1,0 +1,29 @@
+<!-- define HTML file metadata -->
+<!DOCTYPE html>
+<html lang="en">
+    <!-- HTML files have 2 main sections: 'head' and 'body'. 'head' contains project metadata. -->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pokemon List</title>
+    </head>
+    <!-- 'body' contains the structure of the site. It contains tags, which can either be block (creates new lines
+        on the page) or inline (doesn't create a new block in the page) -->
+    <body>
+        <!-- h1 (header-1) is a block HTML element. -->
+        <h1>Welcome to the poke-list of all pokemon!</h1>
+        <!-- p (paragraph) is a block HTML element. -->
+        <p>Search for a pokemon by name (eg "Pika"):</p>
+        <!-- input is an inline HTML element -->
+        <input id = "nameInput">
+        <!-- button is an inline HTML element -->
+        <button id="loadButton">Filter pokemon by name</button>
+        <p>All pokemon displayed here:</p>
+        <!-- span is an inline HTML element, so it doesn't break lines on the page. Currently, it doesn't
+        contain any text within it - the text will be added dynamically by Javascript-->
+        <span id="content"></span>
+        <!-- input is an inline HTML element -->
+        <script src="hackerpokemonlist.js"></script>
+    </body>
+</html>
